@@ -1,4 +1,4 @@
-package com.wsb.leetcode.hashtable;
+package com.wsb.leetcode.hashtable.anagram;
 
 public class isAnagram_242 {
 

@@ -1,4 +1,4 @@
-package com.wsb.leetcode.hashtable;
+package com.wsb.leetcode.hashtable.anagram;
 
 import java.util.ArrayList;
 import java.util.Arrays;
