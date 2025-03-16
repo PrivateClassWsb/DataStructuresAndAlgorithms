@@ -13,6 +13,6 @@ public class reconstructQueue_406 {
         for (int[] person : people) {
             que.add(person[1], person);
         }
-        return que.toArray(new int[people.length][]);
+        return que.toArray(new int[people.length][1]);
     }
 }
