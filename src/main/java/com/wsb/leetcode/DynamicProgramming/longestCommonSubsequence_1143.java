@@ -2,7 +2,7 @@ package com.wsb.leetcode.DynamicProgramming;
 
 public class longestCommonSubsequence_1143 {
     public int longestCommonSubsequence(String text1, String text2) {
-        // dp[i][j] : 以i - 1为结尾的text1 和 以j - 1为结尾的text2 的最长公共子序列的长度
+        // dp[i][j] : [0, i - 1]的text1 和 [0, j - 1]的text2 的最长公共子序列的长度
         // text1 = "abcde"
         // text2 = "ace"
         /*
