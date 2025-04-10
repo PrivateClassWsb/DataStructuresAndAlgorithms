@@ -17,7 +17,8 @@ public class findMedianSortedArrays_4 {
         }
 
         public int getKthElement(int[] nums1, int[] nums2, int k) {
-            /* 主要思路：要找到第 k (k>1) 小的元素，那么就取 pivot1 = nums1[k/2-1] 和 pivot2 = nums2[k/2-1] 进行比较
+            /* 主要思路：要找到第 k (k>1) 小的元素，那么就取 pivot1 = nums1[k/2-1] 和 pivot2 = nums2[k/2-1] 进行比较。
+                                                即，分别取nums1和nums2的第k/2小的元素（因为数组从0开始，所以要-1）
              * 这里的 "/" 表示整除
              * nums1 中小于等于 pivot1 的元素有 nums1[0 .. k/2-2] 共计 k/2-1 个
              * nums2 中小于等于 pivot2 的元素有 nums2[0 .. k/2-2] 共计 k/2-1 个
